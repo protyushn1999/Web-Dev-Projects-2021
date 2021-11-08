@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <img src="i1.jpg" alt="ping-pong-image"  id="i1">  
+        <h2>Ping Pong Score Keeper</h2>
+        <h1><span id="firstPlayer">0</span> to <span id="secondPlayer">0</span></h1>
+        <p>Use the buttons below to keep score</p>
+        
+        <div class="select">
+            <span>Playing To</span>
+            <select name="" id="playto">
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+            </select>
+        </div>
+        <br>
+        <div class="buttons">
+            <button class="btn first" id="p1Button">+1 Player One</button>
+            <button class="btn second" id="p2Button">+1 Player Two</button>
+            <button class="btn reset" id="resetButton">Reset</button>
+    
+        </div>
+        
+    </div>
+    
+    <script src="scorejs.js"></script>
+</body>
+</html>
